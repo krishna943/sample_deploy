@@ -9,6 +9,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.core.management.base import BaseCommand
 from django.views.generic import View
+from .models import FileUpload
 
 """
 class Command(BaseCommand):
